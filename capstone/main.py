@@ -65,7 +65,7 @@ def batch_process_images(folder_path, output_csv="batch_neuron_analysis_results.
     output_path = os.path.join(folder_path, output_csv)
     df.to_csv(output_path, index=False)
 
-# Example usage
+"Test Run"
 if __name__ == "__main__":
-    folder = r"F:\Cropped slides\TS PV\Slide 2"  # Replace with your image folder path
+    folder = r"F:\Cropped slides\TS PV\Slide 2" 
     batch_process_images(folder)
